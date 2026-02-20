@@ -1,0 +1,35 @@
+/* ================================
+   BUTTONS
+================================ */
+
+.button {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.button-primary {
+  background: var(--color-accent);
+  color: white;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.button-primary {
+  background: linear-gradient(
+    135deg,
+    var(--color-accent),
+    #6366f1
+  );
+  color: white;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.35);
+}
+
+.button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(79, 70, 229, 0.45);
+}

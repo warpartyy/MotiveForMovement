@@ -1,0 +1,39 @@
+@import "../styles/tokens.css";
+@import "../styles/layout.css";
+@import "../styles/components.css";
+@import "../styles/sections.css";
+
+/* ================================
+   GLOBAL RESET
+================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ================================
+   BACKGROUND DEPTH
+================================ */
+
+body {
+  background: radial-gradient(
+      circle at 50% -20%,
+      rgba(79, 70, 229, 0.15),
+      transparent 40%
+    ),
+    var(--color-bg);
+}
