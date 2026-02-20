@@ -26,14 +26,14 @@ a {
 }
 
 /* ================================
-   BACKGROUND DEPTH
+   WARM BACKGROUND DEPTH
 ================================ */
 
 body {
   background: radial-gradient(
-      circle at 50% -20%,
-      rgba(79, 70, 229, 0.15),
-      transparent 40%
+      circle at 50% -10%,
+      rgba(47, 143, 131, 0.08),
+      transparent 50%
     ),
     var(--color-bg);
 }

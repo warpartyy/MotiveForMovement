@@ -13,10 +13,14 @@
 .button-primary {
   background: var(--color-accent);
   color: white;
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 30px rgba(47, 143, 131, 0.18);
+  transition: all 0.25s ease;
 }
 
 .button-primary:hover {
-  opacity: 0.9;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(47, 143, 131, 0.25);
 }
 
 .button-primary {
