@@ -1,20 +1,26 @@
+import Link from "next/link";
+import { homeContent } from "@/lib/content/home";
+
 export function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <h1 className="hero-title">Motive For Movement</h1>
+        <h1 className="hero-title">
+          {homeContent.title}
+        </h1>
 
         <p className="hero-subtitle">
-          Connecting communities to essential resources and building momentum
-          for long-term impact.
+          {homeContent.subtitle}
         </p>
 
-        <a
-          href="https://resources.motiveformovement.com"
-          className="button button-primary"
-        >
-          Access Resources
-        </a>
+        <div className="hero-actions">
+          <Link
+            href={homeContent.primaryCta.href}
+            className="button button-primary"
+          >
+            {homeContent.primaryCta.label}
+          </Link>
+        </div>
       </div>
     </section>
   );
