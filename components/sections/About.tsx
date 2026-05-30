@@ -24,9 +24,9 @@ export function About() {
           </p>
 
           <p>
-            Our focus is simple: identify real-world challenges,
-            build useful tools, and support the people and
-            organizations working to make an impact.
+            We believe technology should solve real problems, reduce
+            unnecessary complexity, and make important work easier to
+            manage and sustain.
           </p>
         </div>
       </div>
